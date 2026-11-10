@@ -1,0 +1,14 @@
+{
+  "name": "farmagenda-smart",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test tests/core.test.mjs",
+    "test:browser": "python3 scripts/test-farmagenda.py",
+    "serve": "python3 -m http.server 8765 --bind 127.0.0.1"
+  }
+}
