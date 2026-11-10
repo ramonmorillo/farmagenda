@@ -24,3 +24,7 @@ Validación local del 10 de noviembre de 2026:
 - YAML y empaquetado estático de Pages comprobados localmente; la CI y publicación se verifican por separado.
 
 Una suite incompleta, una descarga sin comprobar o una rama subida no demuestra funcionalidad ni publicación. No se afirma validación institucional, clínica, de accesibilidad certificada o de todos los navegadores y clientes de calendario.
+
+## Publicación observada
+
+GitHub Pages confirmó el despliegue inicial del commit b536620 en https://github.com/ramonmorillo/farmagenda/actions/runs/42863236134, con destino ramonmorillo.es/farmagenda/. La CI también terminó correctamente. La prueba funcional se ejecutó localmente; esta observación remota confirma el despliegue y no una prueba de navegador sobre el dominio publicado. La ficha del taller se incorpora después de este resultado.

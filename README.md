@@ -23,7 +23,7 @@ cd farmagenda
 npm run serve
 ```
 
-Abre la raíz del servidor y tutorial.html, no file://. En desarrollo inicial se utiliza feature/farmagenda y después main. Rutas relativas probadas bajo /farmagenda/.
+Abre la raíz del servidor y tutorial.html, no file://. La versión inicial está incorporada a main; para futuras mejoras utiliza una rama y abre una PR. Rutas relativas probadas bajo /farmagenda/.
 
 ```sh
 npm test
@@ -52,7 +52,7 @@ La agenda se guarda sin cifrar ni sincronizar y conserva hasta 1000 cambios reci
 
 Settings → Pages → Source: GitHub Actions. pages.yml ejecuta pruebas, prepara aplicación/assets/docs y publica al incorporar a main; ci.yml ejecuta Node en push y PR. Las pruebas de navegador se ejecutan aparte. Sin CNAME.
 
-URL prevista: https://ramonmorillo.github.io/farmagenda/. GitHub puede heredar ramonmorillo.es manteniendo /farmagenda/. Comprueba despliegue y URL antes de incorporar los enlaces del taller. Una rama subida no implica publicación.
+Publicación confirmada por GitHub Pages: **https://ramonmorillo.es/farmagenda/**. Tutorial: **https://ramonmorillo.es/farmagenda/tutorial.html**. El proyecto conserva /farmagenda/ bajo el dominio del propietario. Comprueba cada despliegue antes de anunciar cambios; una rama subida no implica publicación.
 
 ## Estructura
 
